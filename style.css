@@ -36,15 +36,19 @@ th {
 .main-nav__list{
     color: black;
     text-align: center;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex; /* flex in parent class */
+    justify-content: space-around;
 
 
 }
 .main-nav__list-element{
-    display: inline-block;
-    width: 25%;
+  /*  display: inline-block; */
+
     font-size: 2em;
+
 
 
 }
