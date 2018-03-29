@@ -1,10 +1,4 @@
-*{
-    box-sizing: boarder-box;
-}
 
-body{
-
-}
 td, th {
     border: 1px gray solid;
     padding: 20px 5px;
@@ -47,7 +41,7 @@ th {
 }
 .main-nav li{
     display: inline-block;
-    width: 24%;
+    width: 25%;
     font-size: 2em;
     text-decoration: none;
 
