@@ -87,6 +87,12 @@ th {
     margin-left: 0;
 
 
+    /* align in flex conteiner */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
 }
 
 .about-table::after{ /* Remmember about two "::" */
