@@ -14,8 +14,8 @@ table{
 }
 
 th {
-    background-color: yellow;
-    color: blue;
+    background-color: #19ff5e;
+    color: #000000;
 }
 
 .name-table{
@@ -27,7 +27,7 @@ th {
 }
 
 .main-nav{
-    background-color: aquamarine;
+    background-color: #19ff5e;
     position: fixed;
     height: auto;
     width: 100%;
@@ -80,7 +80,7 @@ th {
 }
 .about-table__article{
     width: 49%;
-    background-color: yellow;
+    background-color: #7eff26;
     border: 1px green solid;
     padding: 0;
     margin-right: 0;
