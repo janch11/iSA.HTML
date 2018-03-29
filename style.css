@@ -1,0 +1,61 @@
+*{
+    box-sizing: boarder-box;
+}
+
+body{
+
+}
+td, th {
+    border: 1px gray solid;
+    padding: 20px 5px;
+}
+table{
+    border-collapse: collapse; // collapse borders;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+th {
+    background-color: yellow;
+    color: blue;
+}
+
+.name-table{
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.main-nav{
+    background-color: aquamarine;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-nav ul{
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.main-nav li{
+    display: inline-block;
+    width: 24%;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+
+.about {
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+}
+
