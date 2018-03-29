@@ -32,14 +32,14 @@ th {
     z-index: 1;
 }
 
-.main-nav ul{
+.main-nav__list{
     color: black;
     text-align: center;
     margin: 0;
     padding: 0;
 
 }
-.main-nav li{
+.main-nav__list-element{
     display: inline-block;
     width: 25%;
     font-size: 2em;
