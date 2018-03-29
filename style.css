@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 td, th {
     border: 1px gray solid;
     padding: 20px 5px;
@@ -72,15 +74,18 @@ th {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .article{
     width: 49%;
-    float: left;
     background-color: yellow;
     border: 1px green solid;
     padding: 0;
-    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+
 
 }
 
