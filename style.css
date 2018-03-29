@@ -27,9 +27,10 @@ th {
 .main-nav{
     background-color: aquamarine;
     position: fixed;
-    height: 80px;
+    height: auto;
     width: 100%;
     z-index: 1;
+
 }
 
 .main-nav__list{
@@ -38,12 +39,19 @@ th {
     margin: 0;
     padding: 0;
 
+
 }
 .main-nav__list-element{
     display: inline-block;
     width: 25%;
     font-size: 2em;
-    text-decoration: none;
+
+
+}
+.main-nav__list-element:hover{
+    color: yellow;
+    background-color: chartreuse;
+    transition: color 2s, background-color 2s;
 
 }
 
@@ -53,3 +61,27 @@ th {
     width: 80%;
 }
 
+.section{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.article{
+    width: 49%;
+    float: left;
+    background-color: yellow;
+    border: 1px green solid;
+    padding: 0;
+    margin: auto;
+
+}
+
+.section::after{ /* Remmember about two "::" */
+    content: "";
+    clear: both;
+    display: table;
+}
