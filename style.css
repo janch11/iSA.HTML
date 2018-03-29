@@ -67,7 +67,7 @@ th {
     width: 80%;
 }
 
-.section{
+.about-table{
     width: 900px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -78,7 +78,7 @@ th {
     flex-wrap: wrap;
 
 }
-.article{
+.about-table__article{
     width: 49%;
     background-color: yellow;
     border: 1px green solid;
@@ -89,7 +89,7 @@ th {
 
 }
 
-.section::after{ /* Remmember about two "::" */
+.about-table::after{ /* Remmember about two "::" */
     content: "";
     clear: both;
     display: table;
